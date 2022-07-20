@@ -111,7 +111,7 @@ function App() {
 
       {/* SKills and Programming Languages */}
       <div class="container" id="skills">
-        <div class="row">
+        <div class="row mb-5">
           <p class="text-center mt-5 fs-1">Skills & Programming Languages</p>
           <div class="row align-items-around mb-5 mt-3">
             {/* First card */}
