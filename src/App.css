@@ -5,7 +5,7 @@
   justify-content: space-between;
   font-size: medium;
   margin-top: 25px;
-  clear: both;
+  width: 100%;
 }
 
 *{
@@ -194,4 +194,18 @@ li {
 
 .intro_text {
   margin: auto;
+}
+
+
+@media (max-width: 376px) {  
+  .landingText {
+    font-size: 1.5rem !important ;
+  }
+
+  .landingTextHeader {
+    font-size: 0.7rem !important ;
+  }
+  .textMr {
+    font-size: 0.8rem !important ;
+  }
 }

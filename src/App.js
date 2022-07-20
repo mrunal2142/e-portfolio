@@ -22,28 +22,28 @@ function App() {
 
           <div className="header mt-1">
             <div className="left">
-              <p className="left">
+              <p className="left landingTextHeader">
                 <a className="my_a" href="#skills">
                   Skills
                 </a>
               </p>
-              <p>
+              <p class="landingTextHeader">
                 <a href="#projects">Projects</a>
               </p>
             </div>
 
             <div>
               <a href='#'>
-                <p className="center" align="center" >Mrunal D</p>
+                <p className="center textMr" align="center" >Mrunal D</p>
               </a>
 
             </div>
 
             <div className="right">
-              <p className="right">
+              <p className="right landingTextHeader">
                 <a href="#publication">Publication</a>
               </p>
-              <p>
+              <p class="landingTextHeader">
                 <a href="mailto:mrunald2104@gmail.com">Contact</a>
               </p>
             </div>
@@ -59,7 +59,7 @@ function App() {
             className="landing_body animate__animated animate__fadeInUp container"
             data-anim="animate__fadeInUp"
           >
-            <p class="text-center ms-5 ps-5 me-5 pe-5">
+            <p class="text-center ms-5 ps-5 me-5 pe-5 landingText">
               Hello! I am an Android and a web Developer<br></br>trying to learn
               new things.
             </p>
