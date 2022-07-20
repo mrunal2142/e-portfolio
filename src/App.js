@@ -202,7 +202,7 @@ function App() {
                     <h5 class="card-title fs-4">
                       Portfolio website{' '}
                       <IconButton>
-                        <a href="https://github.com/mrunal2142/portfolio-website">
+                        <a href="https://github.com/mrunal2142/e-portfolio">
                           <img src={github} className="socialMedia p-1"></img>
                         </a>
                       </IconButton>{' '}
