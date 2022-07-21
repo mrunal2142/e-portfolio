@@ -12,8 +12,8 @@ import gmail from './images/gmail.png'
 import github from './images/github.png'
 import { IconButton } from '@mui/material';
 
-function foo() {
-  document.getElementById('hello').classList.toggle('active')
+function headerFunction() {
+  document.getElementById('headerContainer').classList.toggle('active')
 }
 
 
@@ -23,7 +23,7 @@ function App() {
       {/* Header */}
       <div class="fixed-top bg-white shadow-sm ">
         <div  class="container">
-          <div id="hello">
+          <div id="headerContainer">
           <div className="header mt-1">
             <div><p class="myName textMr"><a href="#landing">Mrunal D</a></p>
             </div>
@@ -39,7 +39,7 @@ function App() {
             </nav>
 
             <div id=" mobile-navbar-button " class="mobile-navbar-button">
-              <IconButton onClick={foo}><ion-icon name="menu-outline" class="mobile-icon"></ion-icon></IconButton>
+              <IconButton onClick={headerFunction}><ion-icon name="menu-outline" class="mobile-icon"></ion-icon></IconButton>
             </div>
           </div>
           </div>
