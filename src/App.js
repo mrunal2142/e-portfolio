@@ -12,48 +12,44 @@ import gmail from './images/gmail.png'
 import github from './images/github.png'
 import { IconButton } from '@mui/material';
 
+function foo() {
+  document.getElementById('hello').classList.toggle('active')
+}
+
+
 function App() {
   return (
     <div>
       {/* Header */}
       <div class="fixed-top bg-white shadow-sm ">
-        <div class="container">
-
-
+        <div  class="container">
+          <div id="hello">
           <div className="header mt-1">
-            <div className="left">
-              <p className="left landingTextHeader">
-                <a className="my_a" href="#skills">
-                  Skills
-                </a>
-              </p>
-              <p class="landingTextHeader">
-                <a href="#projects">Projects</a>
-              </p>
+            <div><p class="myName textMr"><a href="#landing">Mrunal D</a></p>
             </div>
 
-            <div>
-              <a href='#'>
-                <p className="center textMr" align="center" >Mrunal D</p>
-              </a>
+            <nav class="navbar">
+              <ul class="navbarlist">
+                <li><a href="#intro">Introduction </a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publication">Publication</a></li>                
+                <li><a href="mailto:mrunald2104@gmail.com">Contact</a></li>
+              </ul>
+            </nav>
 
-            </div>
-
-            <div className="right">
-              <p className="right landingTextHeader">
-                <a href="#publication">Publication</a>
-              </p>
-              <p class="landingTextHeader">
-                <a href="mailto:mrunald2104@gmail.com">Contact</a>
-              </p>
+            <div id=" mobile-navbar-button " class="mobile-navbar-button">
+              <IconButton onClick={foo}><ion-icon name="menu-outline" class="mobile-icon"></ion-icon></IconButton>
             </div>
           </div>
+          </div>
+          
         </div>
       </div>
 
 
       {/* body */}
-      <div className="my_container ">
+      <div id="landing" className="my_container ">
         <div class="container div-col-md-6 div-col-sm-12">
           <div
             className="landing_body animate__animated animate__fadeInUp container"
@@ -85,7 +81,7 @@ function App() {
       </div>
 
       {/* Introduction */}
-      <div class="bg-light ">
+      <div id="intro" class="bg-light ">
         <div class="container">
           <div class="row ">
             <p class="text-center mt-5 fs-1">Introduction</p>
@@ -349,11 +345,14 @@ function App() {
           </div>
         </div>
       </div>
-
-
-
+      
     </div>
   );
 }
+
+
+
+
+
 
 export default App;
