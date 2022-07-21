@@ -132,10 +132,10 @@ function App() {
             <div class="col-lg div-col-md-6 div-col-sm-12 mt-3 ms-4 pe-4">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Android & tech stack</h5>
+                  <h5 class="card-title">Android dev & tech stack</h5>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                      Android development ]
+                      Android development (native)
                     </li>
                     <li class="list-group-item">Java</li>
                     <li class="list-group-item">Kotlin</li>
@@ -345,7 +345,7 @@ function App() {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 }
